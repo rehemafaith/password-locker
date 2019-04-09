@@ -13,7 +13,7 @@ class TestUser(unittest.TestCase):
       '''
       Set up method to run before each test cases.
       '''
-      self.new_cred = Credential("Rehema","0708212463","shalomneema","shalomneema",)
+      self.new_cred = Credential("Rehema","0708212463","shalomneema",)
 
   def tearDown(self):
      '''
