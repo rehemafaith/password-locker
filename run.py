@@ -46,7 +46,7 @@ def main():
     )
     print ("use these short codes to decide what to do:") 
     print (list)
-  
+    
 
     short_code = input().lower()
     
