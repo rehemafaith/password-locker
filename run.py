@@ -44,7 +44,7 @@ def main():
     fc - find account
     '''
     )
-    print ("use these short codes to decide what to do:")
+    print ("use these short codes to decide what to do:") 
     print (list)
   
 
