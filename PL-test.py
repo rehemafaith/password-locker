@@ -29,7 +29,7 @@ class TestUser(unittest.TestCase):
       self.assertEqual(self.new_cred.username,"Rehema")
       self.assertEqual(self.new_cred.phone_number,"0708212463")
       self.assertEqual(self.new_cred.password,"shalomneema")
-      self.assertEqual(self.new_cred.confirmation_password,"shalomneema")
+      
 
 
   def test_save_credential(self):
@@ -47,7 +47,7 @@ class TestUser(unittest.TestCase):
         objects to our credential_list
         '''
         self.new_cred.save_credential()
-        test_credential= Credential("Rehema","0708212463","shalomneema","shalomneema")
+        test_credential= Credential("Rehema","0708212463","shalomneema")
 
         test_credential.save_credential()
         self.assertEqual(len(Credential.credential_list),2)
@@ -64,7 +64,7 @@ class TestUser(unittest.TestCase):
     display information
     '''
     self.new_cred.save_credential()
-    test_credential =Credential("Rehema","0708212463","shalomneema","shalomneema")
+    test_credential =Credential("Rehema","0708212463","shalomneema")
     test_credential.save_credential()
 
     found_credential = Credential.find_by_username("Rehema")
