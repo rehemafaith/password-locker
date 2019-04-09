@@ -69,8 +69,9 @@ def main():
       
       print("Thank you!you have successfully created an acc.")
 
-      elif short_code == 'dc':
-        print ("")
-
+    elif short_code == 'dc':
         
+      del_cred(save_creds)
+
+    elif short_code == ''   
 main()
