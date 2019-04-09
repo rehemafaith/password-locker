@@ -4,14 +4,12 @@ class Credential :
   '''
   credential_list =[]
 
-  def __init__(self,username,number,password,confirmation_password):
+  def __init__(self,username,number,password):
     
     self.username =username
     self.phone_number = number
     self.password = password
-    self.confirmation_password =confirmation_password
-
-
+    
   def save_credential(self):
       '''
       save_credential method saves contact objects into credential_list
