@@ -23,4 +23,10 @@
 * Open your terminal and navigate to the folder you put it in 
 * Run the run.py file 
 
-## 
+# Technologies Used
+
+### Python 3.6
+
+## License 
+
+[MIT LICENSE](LICENSE)
