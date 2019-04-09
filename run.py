@@ -26,7 +26,6 @@ def find_user(username):
 def main():
   print("Hello!Welcome to The password locker!")
 
-  
 
     
 
