@@ -41,7 +41,7 @@ def main():
     list =('''
     cc-create account
     dc - delete account 
-    fc - find account
+    fc - find account 
     '''
     )
     print ("use these short codes to decide what to do:") 
