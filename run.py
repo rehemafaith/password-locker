@@ -73,5 +73,7 @@ def main():
         
       del_cred(save_creds)
 
-    elif short_code == ''   
+    elif short_code == 'fc':
+
+      find_user(save_creds)   
 main()
