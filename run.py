@@ -17,7 +17,7 @@ def del_cred(cred):
   function to delete credentials
   '''
   cred.delete_credential()
-def find_user(username):
+def find_user(username): 
   '''
   Function that finds user's credentials
   '''
